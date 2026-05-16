@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 .classpath
 
 .settings/
@@ -9,6 +11,11 @@ target/
 .vscode/
 
 .scannerwork/
-*.prefs
-placements/.settings/org.eclipse.wst.common.component
-placements/.settings/org.eclipse.wst.common.project.facet.core.xml
+=======
+.classpath
+.settings/
+.project
+target/
+.vscode/
+.scannerwork/
+>>>>>>> daee61e967c1c08b3dc1de9b7a2a13cb21046a68

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: lightgrey" ng-app="studentModule">
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-12 col-md-3">
+        </div>
+        <div class="col-12 col-md-6" ng-controller="statisticsController">
+            <center>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="number" class="form-control" ng-model="yearSelected" placeholder="year" >
+                    </div>
+                    <button type="submit" class="btn btn-primary" ng-click="filter()">Filter</button>
+                </form>
+            </center> 
+            <br>
+            <br>
+            <table class="table">
+                <thead>
+                    <th>Company</th>
+                    <th>No.of.Students Placed</th>
+                    <th>Year</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="data in items">
+                        <td>{{data.placedCandidateId.companyName}}</td>
+                        <td>{{data.candidateCount}}</td>
+                        <td>{{data.placedCandidateId.year}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-12 col-md-3">
+        </div>
+        <!--/span-->
+    </div>
+    <!--/row-->
+</body>
+</html>
