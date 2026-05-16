@@ -22,9 +22,8 @@ This website is a platform to bring the Companies looking for talent and the tal
 If you are looking for a place to launch your career, then you have to the right place.
 Support:
 Contact:
-Raghu : 9951033250
-Sukesh: sukesh.kancharla@accoliteindia.com
-Mail: placementmanagementsystems@gmail.com
+Harini : 9791445235
+Mail: harini.kasirajan@gmail.com
 Using this website: You can register yourself and apply for companies if any.
 You will be notified whenever there is a new company.
 If you are looking to employ people, please contact us at the forementioned contact details.
